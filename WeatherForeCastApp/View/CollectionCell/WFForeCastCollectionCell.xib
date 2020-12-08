@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WFForeCastCollectionCell" id="gTV-IL-0wX" customClass="WFForeCastCollectionCell" customModule="WeatherForeCastApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="223" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="223" height="120"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ORq-6p-kjw">
+                        <rect key="frame" x="0.0" y="0.0" width="223" height="120"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Jc4-ym-GO4">
+                                <rect key="frame" x="10" y="0.0" width="213" height="120"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cloud : Scattered Clouds" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pNG-xd-EpF">
+                                        <rect key="frame" x="0.0" y="0.0" width="213" height="22.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.23137254900000001" green="0.094117647060000004" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temprature : 370 (120-370)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E2x-HS-eWq">
+                                        <rect key="frame" x="0.0" y="32.5" width="213" height="22.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.23137254900000001" green="0.094117647060000004" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temprature : 370 (120-370)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QoG-sc-HpF">
+                                        <rect key="frame" x="0.0" y="65" width="213" height="22.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.23137254900000001" green="0.094117647060000004" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="wind : 3.6" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zCD-QP-svU">
+                                        <rect key="frame" x="0.0" y="97.5" width="213" height="22.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.23137254900000001" green="0.094117647060000004" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FtJ-iV-I69">
+                                <rect key="frame" x="0.0" y="119" width="223" height="1"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="c8h-zV-6aS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.024289465897920116" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FtJ-iV-I69" firstAttribute="leading" secondItem="ORq-6p-kjw" secondAttribute="leading" id="Ifm-UD-EBc"/>
+                            <constraint firstAttribute="bottom" secondItem="Jc4-ym-GO4" secondAttribute="bottom" id="KvQ-p6-bwI"/>
+                            <constraint firstItem="Jc4-ym-GO4" firstAttribute="leading" secondItem="ORq-6p-kjw" secondAttribute="leading" constant="10" id="gVU-xq-PGy"/>
+                            <constraint firstAttribute="bottom" secondItem="FtJ-iV-I69" secondAttribute="bottom" id="i40-Hr-Eu1"/>
+                            <constraint firstItem="Jc4-ym-GO4" firstAttribute="top" secondItem="ORq-6p-kjw" secondAttribute="top" id="iEv-2a-NsP"/>
+                            <constraint firstAttribute="trailing" secondItem="Jc4-ym-GO4" secondAttribute="trailing" id="u05-vz-GPB"/>
+                            <constraint firstAttribute="trailing" secondItem="FtJ-iV-I69" secondAttribute="trailing" id="zpr-f2-PmR"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="ORq-6p-kjw" secondAttribute="trailing" id="ffY-ai-W61"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="ORq-6p-kjw" secondAttribute="bottom" id="jdv-oE-i1i"/>
+                <constraint firstItem="ORq-6p-kjw" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" id="lrW-aV-ka0"/>
+                <constraint firstAttribute="top" secondItem="ORq-6p-kjw" secondAttribute="top" id="uON-7c-K1e"/>
+            </constraints>
+            <size key="customSize" width="223" height="120"/>
+            <connections>
+                <outlet property="humadityLabel" destination="QoG-sc-HpF" id="sXo-5j-Cba"/>
+                <outlet property="mainLabel" destination="pNG-xd-EpF" id="Wq1-AK-oDm"/>
+                <outlet property="tempLabel" destination="E2x-HS-eWq" id="m0o-HF-AX2"/>
+                <outlet property="winLabel" destination="zCD-QP-svU" id="q07-bU-TxG"/>
+            </connections>
+            <point key="canvasLocation" x="99.275362318840592" y="57.589285714285708"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
