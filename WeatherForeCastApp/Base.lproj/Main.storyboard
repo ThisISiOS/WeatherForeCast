@@ -24,7 +24,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kXb-nU-sei">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="44" width="320" height="524"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -38,7 +38,7 @@
                             <constraint firstItem="lCg-TJ-6Od" firstAttribute="bottom" secondItem="kXb-nU-sei" secondAttribute="bottom" id="Why-It-TXk"/>
                             <constraint firstItem="kXb-nU-sei" firstAttribute="leading" secondItem="lCg-TJ-6Od" secondAttribute="leading" id="mgU-00-4J2"/>
                             <constraint firstItem="gsf-h4-SzI" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="lCg-TJ-6Od" secondAttribute="leading" constant="8" id="uqY-sY-VIh"/>
-                            <constraint firstItem="lCg-TJ-6Od" firstAttribute="top" secondItem="kXb-nU-sei" secondAttribute="top" constant="44" id="xwj-gE-n1B"/>
+                            <constraint firstItem="lCg-TJ-6Od" firstAttribute="top" secondItem="kXb-nU-sei" secondAttribute="top" id="xwj-gE-n1B"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QRU-uf-Df8">
